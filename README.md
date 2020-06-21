@@ -7,5 +7,6 @@ Folder /SpikeSorting/raw has :
 The raw_abf_plot.py file has the script that can be modified to plot .abf raw files using matplotllib and pyabf 
  
 The .ipynb files are Jupyter Notebooks. Contains basic functionalities of Spikeinterface tested for review.
+
  
   
