@@ -15,4 +15,4 @@ This folder has the following files:
 	
 ## Independent files:
 * ```raw_abf_plot.py:``` has modifiable script; can be used to plot ```.abf``` raw files using ```matplotlib``` and ```pyabf``` packages in python.
-* ```.ipynb``` files: these are Jupyter Notebooks; contain example functionalities of Spikeinterface (Henning Lab)
+* ```.ipynb``` files: these are Jupyter Notebooks; contain example functionalities of [Spikeinterface (Henning Lab)](#https://spikeinterface.readthedocs.io/)
