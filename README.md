@@ -9,10 +9,10 @@
 This repository contains everything we used to spikesort and analyse 2 channel ephys data recorded from crickets.
 	
 ## Folder /raw:
-This folder has the following files:
-* Raw files ```(1.afb, 2.afb, 3.afb ..)```
-* Plots for the raw files, named respectively ```(Figure_1.png, Figure_2.png, Figure_3.png ..)```
-* Trial files ```(Figure_0.png)``` 
+This folder has the following files and folders:
+* Folder ```May-29``` : has subfolders ```recordings``` (with raw ```.abf``` files) & ```unpanned plots``` (their respective prelimnary plots)
+* Folder ```July-19```: has subfolders ```recordings``` and ```unpanned plots```
+* Trial file ```(Figure_0.png)``` 
 	
 ## Independent Files:
 * ```raw_abf_plot.py:``` has modifiable script; can be used to plot ```.abf``` raw files using ```matplotlib``` and ```pyabf``` packages in python.
