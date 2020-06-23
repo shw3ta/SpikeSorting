@@ -1,7 +1,7 @@
 import pyabf
 import matplotlib.pyplot as plt
 
-for i in range(6,27):
+for i in range(1,27):
 	f = pyabf.ABF(str(i)+".abf")							#load file
 	fig = plt.figure(figsize = (8,6))					#to plot
 
