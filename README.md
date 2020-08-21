@@ -9,12 +9,12 @@
 This repository contains everything we used to spikesort and analyse 2 channel ephys data recorded from bushcrickets.
 	
 ## Folders
-# /raw:
+### /raw:
 Folder containing raw files in Axon Binary Format, converted to Raw Binary Format, and prelimnay plots of the raw files. The plots show both --  recording and stimulus channels.
 * Folder ```May-29``` : has subfolders ```recordings``` , ```rec_raw``` & ```unpanned plots``` 
 * Folder ```July-19```: has subfolders ```recordings```, ```rec_raw``` and ```unpanned plots```
 
-# /scripts:
+### /scripts:
 Folder containing scripts used for file format conversion and sorting. 
 	
 ## Packages used:
