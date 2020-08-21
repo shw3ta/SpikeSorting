@@ -1,22 +1,29 @@
 # SpikeSorting
 ## Table of contents
 * [General](#general)
-* [Folder /raw](#folder-raw)
+* [Packages Used](#packages-used)
 * [Independent Files](#independent-files)
 * [Useful Resources](#useful-resources)
 
 ## General:
-This repository contains everything we used to spikesort and analyse 2 channel ephys data recorded from crickets.
+This repository contains everything we used to spikesort and analyse 2 channel ephys data recorded from bushcrickets.
 	
-## Folder /raw:
-This folder has the following files and folders:
-* Folder ```May-29``` : has subfolders ```recordings``` (with raw ```.abf``` files) & ```unpanned plots``` (their respective prelimnary plots)
-* Folder ```July-19```: has subfolders ```recordings``` and ```unpanned plots```
-* Trial file ```(Figure_0.png)``` 
+## Folders
+# /raw:
+Folder containing raw files in Axon Binary Format, converted to Raw Binary Format, and prelimnay plots of the raw files. The plots show both --  recording and stimulus channels.
+* Folder ```May-29``` : has subfolders ```recordings``` , ```rec_raw``` & ```unpanned plots``` 
+* Folder ```July-19```: has subfolders ```recordings```, ```rec_raw``` and ```unpanned plots```
+
+# /scripts:
+Folder containing scripts used for file format conversion and sorting. 
 	
-## Independent Files:
-* ```raw_abf_plot.py:``` has modifiable script; can be used to plot ```.abf``` raw files using ```matplotlib``` and ```pyabf``` packages in python.
-* ```.ipynb``` files: these are Jupyter Notebooks; contain example functionalities of [Spikeinterface (Henning Lab)](https://spikeinterface.readthedocs.io/)
+## Packages used:
+* [Spikeinterface (Henning Lab)](https://spikeinterface.readthedocs.io/)
+* [MountainSort (Flatiron Institute)](https://github.com/flatironinstitute/mountainsort)
+* [Neo (Neural Ensemble)](https://github.com/NeuralEnsemble/python-neo)
+* [pyABF](https://swharden.com/pyabf)
+* [matplotlib](https://matplotlib.org/)
+
 
 ## Useful Resources:
 * [Naming scheme for raw files](https://docs.google.com/spreadsheets/d/1r-4rFreTUCHqioMG2dXIZKBZa0XNR_jEsXBSWfY0yk8/edit?usp=sharing)
